@@ -1,0 +1,64 @@
+*{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    margin-top: 100px;
+    font-family: serif;
+}
+html, body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-family: 'Holtwood One SC',  sans-serif;
+}
+
+.container {
+    
+    color: rgb(0, 0, 0);
+    width: 360px;
+}
+
+#inputField {
+    background: linear-gradient(45deg, #21085c, #000000);
+    
+    color: rgb(149, 230, 248);
+    
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#addToDo {
+    color: white;
+    background: #21085c;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    
+}
+
+
+.paragraph-styling {
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(45deg, #6382ff, #000000, #000000);
+    font-family: serif;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.to-dos {
+    margin-top: 25px;
+}
